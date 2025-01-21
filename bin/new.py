@@ -193,7 +193,7 @@ def get_defaults():
 if __name__ == '__main__':
     main()
 $ ~/workspace/bin/new.py -p 'This is a test script' testing.py
-Done, see new script "testing.py."
+Done, see new script "testing.py.
 ~/workspace/bin/new.py -h
 usage: new.py [-h] [-n NAME] [-e EMAIL] [-p PURPOSE] [-f] program
 Create Python argparse program
@@ -206,4 +206,4 @@ optional arguments:
 Email for docstring (default: kyclark@gmail.com)
 -p PURPOSE, --purpose PURPOSE
 Purpose for docstring (default: Rock the Casbah)
--f, --force Overwrite existing (default: False)
+-f, --force Overwrite existing (default: False
