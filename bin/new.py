@@ -41,7 +41,7 @@ def get_args() -> Args:
     parser.add_argument('-n',
                         '--name',
                         type=str,
-                        default=defaults.get('name', 'Add your Name),
+                        default=defaults.get('name', 'Add your Name'),
                         help='Name for docstring')
 
     parser.add_argument('-e',

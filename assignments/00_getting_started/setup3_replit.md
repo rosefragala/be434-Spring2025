@@ -11,8 +11,16 @@ Code editors (or Integrated Development Environment, IDEs) are fantastic resourc
 ## Connecting your GitHub account in Replit
 Once you have installed Replit on your Desktop, you can connect it to your GitHub account. To do this, click on the icon for your user in the far right corner of the app. Next, navigate to "Connected Services" in the left navigation bar. Then click the "Connect" button next to GitHub. Login to your GitHub account when prompted.
 
-## Creating a Repl and Cloning a copy of your Class GitHub repository (be434-Spring2024) into it
-Next, you will need to create a new "Repl" or compute environment, to copy the code from your GitHub class repository. You should have already "forked" a copy of the class repository in your own GitHub account (see setup2_github). To create a new Repl, go to the Replit icon in the far left corner, and select "Create Repl" from the menu. Once you have done this, you will be directed to the Replit website to create a Repl. Select the "Import from GitHub" tab and find the be434-Spring2024 that you forked. Select "Public" (your only option with the free account) and then click the "Import from GitHub" button. You will now have access to your own code repository in Replit.
+## Creating a Repl and Cloning a copy of your Class GitHub repository (be434-Spring2025) into it
+Next, you will need to create a new "Repl" or compute environment, to copy the code from your GitHub class repository. You should have already "forked" a copy of the class repository in your own GitHub account (see setup2_github). 
+To create a new Repl:
+* Go to the Replit icon in the far left corner, and select "Create Repl" from the menu. 
+* Once you have done this, you will be directed to the Replit website to create a Repl. 
+* Select the "Import from GitHub" tab and find the be434-Spring2025 that you forked. 
+* Select "Public" (your only option with the free account) and then click the "Import from GitHub" button.
+* Add the following for the "run command": "~/workspace/assignments/grade_hw.sh", then click submit.
+
+You will now have access to your own code repository in Replit.
 
 ## Installing Python modules for running tests on your code
 Now that you have downloaded the class repository, you can install all of the Python modules we will use in the class to test you code (found in the be434-Spring2025/docs/requirements.txt file). Python modules (or code packages) are written by people in Python community and can be used by anyone to perform certain functions in Python. We are going to use several Python modules in this class to test your code and make sure it meets community standards. Open a shell in your be434-Spring2025 repl, which should open a unix terminal. Use the following command to import the required modules into your repl.
