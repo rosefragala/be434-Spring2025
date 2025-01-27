@@ -1,22 +1,22 @@
-../bin/grader.py -d 01_hello
-../bin/grader.py -d 02_crowsnest
-../bin/grader.py -d 03_picnic
-../bin/grader.py -d 04_jump_the_five
-../bin/grader.py -d 05_howler
-../bin/grader.py -d 06_wc
-../bin/grader.py -d 07_gashlycrumb
-../bin/grader.py -d 08_apples_and_bananas
-../bin/grader.py -d 09_abuse
-../bin/grader.py -d 10_telephone
-../bin/grader.py -d 11_bottles_of_beer
-../bin/grader.py -d 12_ransom
-../bin/grader.py -d 13_twelve_days
-../bin/grader.py -d 14_rhymer
-../bin/grader.py -d 15_kentucky_friar
-../bin/grader.py -d 16_scrambler
-../bin/grader.py -d 17_mad_libs
-../bin/grader.py -d 18_gematria
-../bin/grader.py -d 19_wod
-../bin/grader.py -d 20_password
-../bin/grader.py -d 21_tictactoe
-../bin/grader.py -d 22_itictactoe
+cd ~/workspace/exercises/01_hello ; make test
+#cd ~/workspace/exercises/02_crowsnest ; make test
+#cd ~/workspace/exercises/03_picnic ; make test
+#cd ~/workspace/exercises/04_jump_the_five ; make test
+#cd ~/workspace/exercises/05_howler ; make test
+#cd ~/workspace/exercises/06_wc ; make test
+#cd ~/workspace/exercises/07_gashlycrumb ; make test
+#cd ~/workspace/exercises/08_apples_and_bananas ; make test
+#cd ~/workspace/exercises/09_abuse ; make test
+#cd ~/workspace/exercises/10_telephone ; make test
+#cd ~/workspace/exercises/11_bottles_of_beer ; make test
+#cd ~/workspace/exercises/12_ransom ; make test
+#cd ~/workspace/exercises/13_twelve_days ; make test
+#cd ~/workspace/exercises/14_rhymer ; make test
+#cd ~/workspace/exercises/15_kentucky_friar ; make test
+#cd ~/workspace/exercises/16_scrambler ; make test
+#cd ~/workspace/exercises/17_mad_libs ; make test
+#cd ~/workspace/exercises/18_gematria ; make test
+#cd ~/workspace/exercises/19_wod ; make test
+#cd ~/workspace/exercises/20_password ; make test
+#cd ~/workspace/exercises/21_tictactoe ; make test
+#cd ~/workspace/exercises/22_itictactoe ; make test

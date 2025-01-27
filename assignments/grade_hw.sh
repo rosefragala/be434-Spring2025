@@ -1,12 +1,12 @@
-../bin/grader.py -d 01_howdy
-#../bin/grader.py -d 02_divide
-#../bin/grader.py -d 03_dna
-#../bin/grader.py -d 04_revc
-#../bin/grader.py -d 05_gc
-#../bin/grader.py -d 06_rna
-#../bin/grader.py -d 07_syndna
-#../bin/grader.py -d 08_common
-#../bin/grader.py -d 09_blastomatic
-#../bin/grader.py -d 10_conserved
-#../bin/grader.py -d 11_run_length
-#../bin/grader.py -d 12_seqmagique
+cd ~/workspace/assignments/01_howdy ; make test
+#cd ~/workspace/assignments/02_divide ; make test
+#cd ~/workspace/assignments/03_dna ; make test
+#cd ~/workspace/assignments/04_revc ; make test
+#cd ~/workspace/assignments/05_gc ; make test
+#cd ~/workspace/assignments/06_rna ; make test
+#cd ~/workspace/assignments/07_syndna ; make test
+#cd ~/workspace/assignments/08_common ; make test
+#cd ~/workspace/assignments/09_blastomatic ; make test
+#cd ~/workspace/assignments/10_conserved ; make test
+#cd ~/workspace/assignments/11_run_length ; make test
+#cd ~/workspace/assignments/12_seqmagique ; make test

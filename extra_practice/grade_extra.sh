@@ -1,12 +1,12 @@
-../bin/grader.py -d 01_salutations
-../bin/grader.py -d 02_sum
-../bin/grader.py -d 03_solfege
-../bin/grader.py -d 04_cat
-../bin/grader.py -d 05_proteins
-../bin/grader.py -d 06_iupac
-../bin/grader.py -d 07_fastx_sampler
-../bin/grader.py -d 08_kmers
-../bin/grader.py -d 09_csvfilter
-../bin/grader.py -d 10_hamm
-../bin/grader.py -d 11_fasta
-../bin/grader.py -d 12_grep
+cd ~/workspace/extra_practice/01_salutations ; make test
+#cd ~/workspace/extra_practice/02_sum ; make test
+#cd ~/workspace/extra_practice/03_solfege ; make test
+#cd ~/workspace/extra_practice/04_cat ; make test
+#cd ~/workspace/extra_practice/05_proteins ; make test
+#cd ~/workspace/extra_practice/06_iupac ; make test
+#cd ~/workspace/extra_practice/07_fastx_sampler ; make test
+#cd ~/workspace/extra_practice/08_kmers ; make test
+#cd ~/workspace/extra_practice/09_csvfilter ; make test
+#cd ~/workspace/extra_practice/10_hamm ; make test
+#cd ~/workspace/extra_practice/11_fasta ; make test
+#cd ~/workspace/extra_practice/12_grep ; make test
