@@ -6,8 +6,7 @@ Purpose: Choose the article
 """
 
 import argparse
-import os
-import sys
+
 
 
 # --------------------------------------------------
@@ -21,7 +20,6 @@ def get_args():
     parser.add_argument('word',
                         metavar='word',
                         help='The thing we see')
-   
     return parser.parse_args()
 
 
