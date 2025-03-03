@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 Author : Rose Fragala <rosefragala@arizona.edu>
-Date   : 2025-02-26
-Purpose: To compute GC content in sequencing reads
+Date   : 2025-03-02
+Purpose: Compute GC content in sequences
 """
 
 import argparse
@@ -22,8 +22,6 @@ def get_args():
     parser.add_argument('file',
                         metavar='FILE',
                         type=argparse.FileType('rt'),
-                        nargs='?',
-                        default=sys.stdin,
                         help='Input sequence file')
 
     return parser.parse_args()
@@ -42,7 +40,7 @@ def gc_content(dna):
 
 
 def main():
-    """Make a jazz noise here"""
+    """Process the input file and compute GC content"""
 
     args = get_args()
     dna = {}
@@ -52,6 +50,7 @@ def main():
         line = line.strip()
         if line.startswith('>'):
             seq_id = line[1:]
+            print(f"Processing sequence: {seq_id}")
             dna[seq_id] = ''
         elif seq_id:
             dna[seq_id] += line
@@ -59,10 +58,11 @@ def main():
     max_gc_id = None
     max_gc_value = -1
 
-    for seq_id, dna in dna.items():
-        gc_val = gc_content(dna)
+    for seq_id, seq in dna.items():
+        gc_val = gc_content(seq)
         if gc_val > max_gc_value:
             max_gc_id, max_gc_value = seq_id, gc_val
+
     if max_gc_id is not None:
         print(f'{max_gc_id} {max_gc_value:.6f}')
     else:
